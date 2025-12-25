@@ -1,4 +1,17 @@
+# UI (HuggingFace Spaces)
 streamlit
+
+# Core ML / LLM
 transformers
 torch
 sentencepiece
+accelerate
+
+# PDF + OCR (offline pipeline)
+pdfplumber
+pymupdf
+pytesseract
+pillow
+
+# Utilities
+regex
