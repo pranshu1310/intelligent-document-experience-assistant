@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+echo "📦 Installing dependencies"
+pip install -r requirements.txt
+
 echo "🔵 Step 1: PDF Text Extraction"
 python -m src.offline_pipeline.extract_text
 
