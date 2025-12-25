@@ -1,2 +1,7 @@
-__pycache__/
-.env
+# Ignore PDFs and documents
+*.pdf
+*.docx
+*.pptx
+
+# Ignore data folders
+data/
