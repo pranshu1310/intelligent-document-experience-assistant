@@ -1,3 +1,15 @@
+---
+title: Intelligent Document Experience Assistant
+emoji: 📄
+colorFrom: blue
+colorTo: purple
+sdk: streamlit
+sdk_version: "1.32.2"
+app_file: src/app.py
+pinned: false
+---
+
+
 # intelligent-document-experience-assistant
 
 📄 Intelligent Document Experience Assistant
