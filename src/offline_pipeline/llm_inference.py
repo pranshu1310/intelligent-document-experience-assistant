@@ -12,7 +12,7 @@ def load_generator(model_name=MODEL_NAME):
         device_map="auto",
         torch_dtype=torch.float16
     )
-    gen = pipeline("text-generation", model=model, tokenizer=tokenizer, device=0)
+    gen = pipeline("text-generation", model=model, tokenizer=tokenizer)
     return gen
 
 def run_generation(gen, prompt, max_new_tokens=300):
