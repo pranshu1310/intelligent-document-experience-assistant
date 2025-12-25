@@ -1,7 +1,20 @@
-# Ignore PDFs and documents
-*.pdf
-*.docx
-*.pptx
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
 
-# Ignore data folders
-data/
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Data (optional – keep sample docs only)
+data/*
+!data/sample_reports/
+!data/sample_forms/
