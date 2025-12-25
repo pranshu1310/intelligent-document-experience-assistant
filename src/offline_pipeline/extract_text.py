@@ -1,5 +1,6 @@
 import os, json
-from pdf_extraction import extract_text_from_pdf
+from src.offline_pipeline.pdf_extraction import extract_text_from_pdf
+
 
 PDF_DIR = "/kaggle/input/testv3demo"
 OUT_PATH = "/kaggle/working/intermediate_text.json"

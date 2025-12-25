@@ -1,5 +1,5 @@
 import json, os
-from llm_inference import load_generator, run_generation
+from src.offline_pipeline.llm_inference import load_generator, run_generation
 
 INPUT_PATH = "/kaggle/working/intermediate_text.json"
 OUT_PATH = "/kaggle/working/intermediate_analysis.json"
